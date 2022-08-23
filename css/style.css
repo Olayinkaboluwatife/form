@@ -8,11 +8,21 @@ body{
     height:100%;
 }
 
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+
+}
+
 .form{
     width: 100%;
-    height: 100%;
     background-color: #00ffff;
-    border-radius: 10px;
+    border-radius: 30px;
     border-style: none;
     margin: 20px auto;
     display: flex;
@@ -21,8 +31,8 @@ body{
 }
 
 .form-group{
-    width: 100;
-    height: 100;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     border: 2px;
     border-style: none;
@@ -58,6 +68,7 @@ ul{
     padding: 1rem;
     border-style: none;
     display: flex;
+    width: 21%;
     align-items: center;
     text-align: center;
 }
